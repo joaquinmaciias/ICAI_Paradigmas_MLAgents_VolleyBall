@@ -1112,6 +1112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agent_Purple
       objectReference: {fileID: 0}
+    - target: {fileID: 3204623160587205432, guid: 9c1f6adce75ea4e4691c2ae1170b3c82, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 263d476a5b8eb574abde0917fda39eb2, type: 3}
     - target: {fileID: 6418327307560035698, guid: 9c1f6adce75ea4e4691c2ae1170b3c82, type: 3}
       propertyPath: area
       value: 
@@ -1315,6 +1319,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 991750110160928191, guid: b05d72ad23e25144f98710af597a64ac, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 263d476a5b8eb574abde0917fda39eb2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
