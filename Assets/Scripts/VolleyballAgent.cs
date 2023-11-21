@@ -120,6 +120,11 @@ public class VolleyballAgent : Agent
         jumpStartingPos = agentRb.position;
     }
 
+    public override void OnActionReceived(ActionBuffers actionBuffers)
+    {
+        MoveAgent(actionBuffers.DiscreteActions);
+    }
+
     /// <summary>
     /// Resolves the agent movement
     /// </summary>
@@ -181,10 +186,7 @@ public class VolleyballAgent : Agent
         }
     }
 
-    public override void OnActionReceived(ActionBuffers actionBuffers)
-    {
-        MoveAgent(actionBuffers.DiscreteActions);
-    }
+ 
 
     public override void CollectObservations(VectorSensor sensor)
     {
